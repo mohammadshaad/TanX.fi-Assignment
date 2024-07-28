@@ -12,6 +12,16 @@ This application allows users to set price alerts for Bitcoin (BTC). When the ta
 - Dockerized setup.
 
 ## Endpoints
+
+### Login
+`POST /login`
+```json
+{
+    "username": "username",
+    "password": "password"
+}
+```
+
 ### Create Alert
 `POST /alerts/create`
 ```json
